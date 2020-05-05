@@ -1,3 +1,3 @@
 # MegaMod
-MegaMod for KeeperRL
+MegaMod for KeeperRL /n
 <sub>All mod files go into ModConfig</sub>
