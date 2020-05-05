@@ -1,4 +1,4 @@
-
+#Greenie
 {
     {
       all = {
@@ -45,7 +45,7 @@
   {
     {
       all = {
-	  3 "SKELETON" 
+	  3 "SKELETON"
 	  3 "ZOMBIE_ENDLESS"
 	  1 "MUMMY"
 	  1 "TRUEVAMPIRE_ENDLESS"
@@ -63,7 +63,7 @@
   {
     {
       all = {
-	  2 "SKELETON" 
+	  2 "SKELETON"
 	  3 "ZOMBIE_ENDLESS"
 	  1 "MUMMY"
 	 }
@@ -79,7 +79,7 @@
   {
     {
       all = {
-	  1 "SKELETON" 
+	  1 "SKELETON"
 	  4 "ZOMBIE"
 	 }
       uniques = { "MUMMY" }
@@ -94,7 +94,7 @@
   {
 	{
       all = {
-	  3 "SKELETON_ENDLESS" 
+	  3 "SKELETON_ENDLESS"
 	  2 "ZOMBIE_ENDLESS"
 	  3 "VAMPIRE_ENDLESS"
 	  1 "TRUEVAMPIRE_LORD_ENDLESS"
@@ -111,7 +111,7 @@
   {
 	{
       all = {
-	  6 "SKELETON_ENDLESS" 
+	  6 "SKELETON_ENDLESS"
 	  2 "ZOMBIE_ENDLESS"
 	  8 "VAMPIRE_ENDLESS"
 	  4 "TRUEVAMPIRE_ENDLESS"

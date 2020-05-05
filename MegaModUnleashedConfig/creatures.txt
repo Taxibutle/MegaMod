@@ -1,3 +1,4 @@
+#Greenie
 "HOODSTRANGER"
    {
 	  viewId = { "hoodstranger" }
@@ -31,7 +32,7 @@
         { Simple "LeatherHelm"}
 	}
 	}
-	
+
 	"ELF_PLAYER" inherit "ELF"
     {
       viewId = { "elf" }
@@ -67,7 +68,7 @@
 	    { type = Glyph WEAPON LastingEffect ENTERTAINER chance = 0.05 }
 	}
 	}
-	
+
 	"ELF_PLAYER_ENDLESS" inherit "ELF_PLAYER"
 	 {
 	   spells = {
@@ -88,7 +89,7 @@
         { type = Simple "Robe" prefixChance = 1 }
 	}
 	 }
-	 
+
 	 "KEEPER_CORRUPTED"
     {
       # Definitions in tiles.txt
@@ -127,24 +128,24 @@
       spellSchools = { "mage" "healer" }
       spells = { "healing" }
     }
-	 
+
 	 "KEEPER_CORRUPTED_ENDLESS" inherit "KEEPER_CORRUPTED"
 	{
 	  viewId = { "corruptkeeper" }
 	  spells = {
-	  "directed blast" 
-      "escape" 
-      "haste" 
-      "defense bonus" 
+	  "directed blast"
+      "escape"
+      "haste"
+      "defense bonus"
       "expert magic missile"
 	  "advanced teleport"
-      "expert healing" 
+      "expert healing"
       "advanced cure poison"
-	  "cure blindness" 
-      "poison resistance" 
+	  "cure blindness"
+      "poison resistance"
 	  }
 	}
-	
+
 	"ADVENTURER_ENDLESS" inherit "ADVENTURER"
   {
 	spells = {
@@ -174,7 +175,7 @@
 	"cure poison"
     "haste"
     "defense bonus"
-    "advanced teleport" 
+    "advanced teleport"
     "expert magic missile"
 	"shove"
     "swap positions"
@@ -189,8 +190,8 @@
         { Simple "GoldPiece" 16 26 }
       }
    }
-	
-	
+
+
 	"ADVENTURER_F_ENDLESS" inherit "ADVENTURER_F"
   {
 	spells = {
@@ -220,7 +221,7 @@
 	"cure poison"
     "haste"
     "defense bonus"
-    "advanced teleport" 
+    "advanced teleport"
     "expert magic missile"
 	"shove"
     "swap positions"
@@ -235,18 +236,18 @@
         { Simple "GoldPiece" 16 26 }
       }
   }
-  
+
   "WITCH_ENDLESS" inherit "WITCH"
   {
 	spells = {
-	"directed blast" 
-    "escape" 
-    "magic missile" 
-    "healing" 
+	"directed blast"
+    "escape"
+    "magic missile"
+    "healing"
     "teleport"
 	}
   }
-  
+
   "FIRE_WIZARD"
     {
       viewId = { "fire_wizard" }
@@ -255,7 +256,7 @@
         DEFENSE 45
         SPELL_DAMAGE 40
       }
-	  
+
       body = {
         type = Humanoid LARGE
       }
@@ -287,7 +288,7 @@
         { type = Glyph ARMOR LastingEffect REGENERATION chance = 0.3 }
 	}
     }
-	
+
 	"FIRE_WIZARD_ENDLESS" inherit "FIRE_WIZARD"
 	{
 	attr = {
@@ -296,23 +297,23 @@
         SPELL_DAMAGE 45
       }
 	spells = {
-	  "fireball" 
-  	  "firewall" 
-	  "fire breath" 
-	  "meteor shower" 
-	  "fire elemental" 
-	  "advanced fire elemental" 
+	  "fireball"
+  	  "firewall"
+	  "fire breath"
+	  "meteor shower"
+	  "fire elemental"
+	  "advanced fire elemental"
 	  "healing"
 	  "magic missile"
 	  }
 	}
-	
+
 	"ZOMBIE_ENDLESS"
     {
       viewId = { "zombie" }
       attr = {
         DAMAGE 18
-        DEFENSE 20 
+        DEFENSE 20
       }
       body = {
         type = Humanoid LARGE
@@ -334,7 +335,7 @@
       }
       hatedByEffect = HATE_UNDEAD
     }
-	
+
 	"SKELETON_ENDLESS"
     {
       viewId = { "skeleton" }
@@ -365,17 +366,17 @@
 		{ Simple "IronShield"}
 	}
     }
-	
+
 	"VAMPIRE_ENDLESS" inherit "VAMPIRE"
   {
 	spells = {
-	"deception" 
-    "invisibility" 
-    "escape" 
+	"deception"
+    "invisibility"
+    "escape"
     "panic"
 	}
   }
-  
+
   "TRUEVAMPIRE"
     {
       viewId = { "truevampire" }
@@ -410,27 +411,27 @@
         { Simple "IronStaff"}
       }
     }
-	
+
 	"TRUEVAMPIRE_ENDLESS" inherit "TRUEVAMPIRE"
 	{
 	  spells = {
-	  "deception" 
-      "invisibility" 
-      "escape" 
-      "panic" 
+	  "deception"
+      "invisibility"
+      "escape"
+      "panic"
       "pacify"
-	  "directed blast" 
-      "escape" 
-      "teleport" 
+	  "directed blast"
+      "escape"
+      "teleport"
       "advanced magic missile"
-      "expert healing" 
-      "advanced cure poison" 
-      "cure blindness" 
-      "poison resistance" 
+      "expert healing"
+      "advanced cure poison"
+      "cure blindness"
+      "poison resistance"
       "group healing"
-	  "summon skeletons" 
+	  "summon skeletons"
       "summon vampire bodyguards"
-	  "raise zombies" 
+	  "raise zombies"
 	  "advanced summon skeletons"
 	  }
 	  inventory = {
@@ -438,7 +439,7 @@
         { Simple "IronStaff"}
       }
 	 }
-	 
+
 	"TRUEVAMPIRE_LORD"
     {
       viewId = { "truevampire_lord" }
@@ -477,22 +478,22 @@
         { type = Glyph WEAPON ItemAttrBonus SPELL_DAMAGE 4 chance = 0.3 }
       }
     }
-	
+
 	"TRUEVAMPIRE_LORD_ENDLESS" inherit "TRUEVAMPIRE_LORD"
 	{
 	  spells = {
-	  "raise zombies" 
-	  "master summon skeletons" 
+	  "raise zombies"
+	  "master summon skeletons"
 	  "summon vampire horde"
-	  "defense bonus" 
-	  "damage bonus" 
+	  "defense bonus"
+	  "damage bonus"
 	  "deception"
-	  "directed blast" 
-      "escape" 
-      "healing" 
-      "expert teleport" 
-      "cure poison" 
-      "expert magic missile" 
+	  "directed blast"
+      "escape"
+      "healing"
+      "expert teleport"
+      "cure poison"
+      "expert magic missile"
       "haste"
 	}
 	inventory = {
@@ -501,19 +502,19 @@
         { type = Glyph WEAPON ItemAttrBonus SPELL_DAMAGE 4 chance = 0.3 }
       }
 	}
-	
+
   "VAMPIRE_LORD_ENDLESS" inherit "VAMPIRE_LORD"
 	{
 	  spells = {
-	"defense bonus" 
-	"damage bonus" 
+	"defense bonus"
+	"damage bonus"
 	"deception"
-	"directed blast" 
-    "escape" 
-    "healing" 
-    "teleport" 
-    "cure poison" 
-    "advanced magic missile" 
+	"directed blast"
+    "escape"
+    "healing"
+    "teleport"
+    "cure poison"
+    "advanced magic missile"
     "haste"
 	}
 	inventory = {
@@ -521,8 +522,8 @@
         { Simple "IronStaff"}
         { type = Glyph WEAPON ItemAttrBonus SPELL_DAMAGE 4 chance = 0.3 }
       }
-	}  
-	
+	}
+
 	"ORC_MAGE_ENDLESS" inherit "ORC_MAGE"
   {
 	spells = {
@@ -540,7 +541,7 @@
         { type = Simple "Robe" prefixChance = 1 }
 	}
   }
-  
+
   "ORC_HEALER_ENDLESS" inherit "ORC_HEALER"
   {
 	spells = {
@@ -556,14 +557,14 @@
         { type = Simple "Robe" prefixChance = 1 }
 	}
   }
-  
+
   "DARK_ELF_LORD_ENDLESS" inherit "DARK_ELF_LORD"
   {
 	spells = {
-	"advanced healing" 
-	"haste" 
-	"defense bonus" 
-	"damage bonus" 
+	"advanced healing"
+	"haste"
+	"defense bonus"
+	"damage bonus"
 	"directed blast"
 	"deception"
     "invisibility"
@@ -583,7 +584,7 @@
         { type = Glyph WEAPON ItemAttrBonus SPELL_DAMAGE 4 chance = 0.3 }
       }
   }
-  
+
   "DEATH_ENDLESS"
     {
       viewId = { "death" }

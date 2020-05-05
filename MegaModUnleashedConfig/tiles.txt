@@ -1,3 +1,4 @@
+#Greenie
   { "hoodstranger" "@" ColorId DARK_GREEN }
   { "truevampire" "T" ColorId DARK_BLUE }
   { "truevampire_lord" "T" ColorId PURPLE }
