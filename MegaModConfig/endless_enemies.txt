@@ -1,0 +1,293 @@
+
+{
+    {
+      all = {
+	  5 "BANDIT"
+	  1 "LIZARDMAN"
+	 }
+      uniques = { "WITCH_ENDLESS" }
+      count = { 10 18 }
+      baseLevelIncrease = { MELEE 6 SPELL 3 }
+    }
+    KillLeader
+    "an angry bandit camp"
+    { 10000 17000 }
+    2
+  }
+  {
+    {
+      all = {
+	  1 "VAMPIRE_ENDLESS"
+	 }
+      uniques = { "VAMPIRE_LORD_ENDLESS" }
+      count = { 2 4 }
+      baseLevelIncrease = { MELEE 6 SPELL 6 }
+    }
+    KillLeader
+    "hungry vampires"
+    { 6000 12000 }
+    2
+  }
+  {
+    {
+      all = {
+	  1 "TRUEVAMPIRE_ENDLESS"
+	 }
+      uniques = { "TRUEVAMPIRE_LORD_ENDLESS" }
+      count = { 2 4 }
+      baseLevelIncrease = { MELEE 6 SPELL 6 }
+    }
+    KillLeader
+    "thirsting vampires"
+    { 10000 14000 }
+    4
+  }
+  {
+    {
+      all = {
+	  3 "SKELETON" 
+	  3 "ZOMBIE_ENDLESS"
+	  1 "MUMMY"
+	  1 "TRUEVAMPIRE_ENDLESS"
+	  1 "VAMPIRE_ENDLESS"
+	 }
+      uniques = { "VAMPIRE_LORD_ENDLESS" }
+      count = { 18 27 }
+      baseLevelIncrease = { MELEE 6  ARCHERY 3 SPELL 8 }
+    }
+    KillLeader
+    "a skilled army of undead"
+    { 12000 40000 }
+    2
+  }
+  {
+    {
+      all = {
+	  2 "SKELETON" 
+	  3 "ZOMBIE_ENDLESS"
+	  1 "MUMMY"
+	 }
+      uniques = { "VAMPIRE_ENDLESS" }
+      count = { 12 18 }
+      baseLevelIncrease = { MELEE 3  ARCHERY 1 SPELL 4 }
+    }
+    KillLeader
+    "a novice army of undead"
+    { 8000 20000 }
+    4
+  }
+  {
+    {
+      all = {
+	  1 "SKELETON" 
+	  4 "ZOMBIE"
+	 }
+      uniques = { "MUMMY" }
+      count = { 12 18 }
+      baseLevelIncrease = { MELEE 3 }
+    }
+    KillLeader
+    "wandering undead"
+    { 1000 7000 }
+    6
+  }
+  {
+	{
+      all = {
+	  3 "SKELETON_ENDLESS" 
+	  2 "ZOMBIE_ENDLESS"
+	  3 "VAMPIRE_ENDLESS"
+	  1 "TRUEVAMPIRE_LORD_ENDLESS"
+	 }
+      uniques = { "DARK_ELF_LORD_ENDLESS" }
+      count = { 27 36 }
+      baseLevelIncrease = { MELEE 6 SPELL 12 }
+    }
+    KillLeader
+    "a expert army of undead"
+    { 20000 60000 }
+    1
+  }
+  {
+	{
+      all = {
+	  6 "SKELETON_ENDLESS" 
+	  2 "ZOMBIE_ENDLESS"
+	  8 "VAMPIRE_ENDLESS"
+	  4 "TRUEVAMPIRE_ENDLESS"
+	  2 "TRUEVAMPIRE_LORD_ENDLESS"
+	  1 "DARK_ELF_LORD_ENDLESS"
+	 }
+      uniques = { "DEATH_ENDLESS" }
+      count = { 40 52 }
+      baseLevelIncrease = { MELEE 6 SPELL 12 }
+    }
+    KillLeader
+    "death itself rejects you"
+    { 60000 100000 }
+    2
+  }
+  {
+    {
+      all = { 1 "HOODSTRANGER" }
+      uniques = { "CYCLOPS" }
+      count = { 3 5 }
+      baseLevelIncrease = { MELEE 8 }
+    }
+    KillLeader
+    "imprisoned cyclops"
+    { 12000 17000 }
+    4
+  }
+  {
+    {
+      all = { 1 "SKELETON_ENDLESS" }
+      uniques = { "DEATH_ENDLESS" }
+      count = { 6 10 }
+      baseLevelIncrease = { MELEE 8 }
+    }
+    KillLeader
+    "death comes"
+    { 28000 57000 }
+    4
+  }
+  {
+    {
+      all = { 1 "FIRE_WIZARD_ENDLESS" }
+      count = { 1 }
+      baseLevelIncrease = { SPELL 4 }
+    }
+    KillLeader
+    "master fire wizard"
+    { 18000 30000 }
+    2
+  }
+  {
+    {
+      all = { 2 "ORC" 1 "ORC_HEALER_ENDLESS" }
+      count = { 8 20 }
+      baseLevelIncrease = { MELEE 4 SPELL 5 }
+    }
+    KillLeader
+    "an evil raiding party"
+    { 8000 15000 }
+    4
+  }
+  {
+    {
+      all = { 2 "ELF_PLAYER_ENDLESS" 1 "ORC_HEALER_ENDLESS" 1 "ORC_MAGE_ENDLESS" }
+      count = { 12 26 }
+      baseLevelIncrease = { MELEE 4 SPELL 7 }
+    }
+    KillLeader
+    "controlled elves and masters"
+    { 8000 15000 }
+    4
+  }
+  {
+    {
+      all = { 3 "CLAY_GOLEM" 2 "STONE_GOLEM" 1 "IRON_GOLEM" }
+      count = { 18 24 }
+      baseLevelIncrease = { MELEE 4 }
+    }
+    KillLeader
+    "an alchemist tower erupts nearby"
+    { 20000 35000 }
+    2
+  }
+  {
+    {
+      all = { 1 "TRUEVAMPIRE_ENDLESS" }
+      uniques = { "TRUEVAMPIRE_LORD_ENDLESS" }
+      count = { 8 10 }
+      baseLevelIncrease = { MELEE 12 }
+    }
+    KillLeader
+    "a powerful vampire count"
+    { 14000 25000 }
+    2
+  }
+  {
+    {
+      all = { 4 "TRUEVAMPIRE_ENDLESS" 1 "TRUEVAMPIRE_LORD_ENDLESS" }
+      uniques = { "KEEPER_CORRUPTED_ENDLESS" }
+      count = { 12 20 }
+      baseLevelIncrease = { MELEE 12 }
+    }
+    KillLeader
+    "enemy keeper from the underworld"
+    { 20000 50000 }
+    6
+  }
+  {
+    {
+      all = { 1 "DWARF" }
+      uniques = { "DWARF_BARON" }
+      count = { 20 25 }
+      baseLevelIncrease = { MELEE 12 }
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "angry dwarven army"
+    { 15000 30000 }
+    2
+  }
+  {
+    {
+      all = { 1 "TRUEVAMPIRE_ENDLESS" }
+      count = { 1 }
+    }
+    CampAndSpawn {
+      all = {
+        5 "ZOMBIE_ENDLESS"
+        8 "SKELETON_ENDLESS"
+		1 "VAMPIRE_LORD_ENDLESS"
+        2 "VAMPIRE_ENDLESS"
+      }
+      count = { 26 }
+    }
+    "a true necromancer"
+    { 20000 44000 }
+    6
+  }
+  {
+    {
+      all = {
+        1 "ADVENTURER_ENDLESS"
+        1 "ADVENTURER_F_ENDLESS"
+      }
+      count = { 3 6 }
+      inventory = {{Scroll Area 1 DestroyWalls DIG}}
+      baseLevelIncrease = { MELEE 20 }
+    }
+    KillLeader
+    "a harder group of adventurers"
+    { 10000 25000 }
+    100
+  }
+  {
+    {
+      all = {
+        1 "ADVENTURER_ENDLESS_BIG"
+        1 "ADVENTURER_F_ENDLESS_BIG"
+      }
+      count = { 12 20 }
+      inventory = {{Scroll Area 1 DestroyWalls DIG}}
+      baseLevelIncrease = { MELEE 20 }
+    }
+    KillLeader
+    "a raiding party of adventurers"
+    { 20000 100000 }
+    100
+  }
+  {
+    {
+      all = { 1 "OGRE" 2 "ORC" }
+      count = { 9 15 }
+      baseLevelIncrease = { MELEE 25 }
+    }
+    KillLeader
+    "an orc tribe"
+    { 25000 50000 }
+    100
+  }
