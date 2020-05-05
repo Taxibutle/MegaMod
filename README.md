@@ -1,0 +1,2 @@
+# MegaMod
+MegaMod for KeeperRL
