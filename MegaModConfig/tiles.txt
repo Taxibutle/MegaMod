@@ -1,0 +1,9 @@
+  { "hoodstranger" "@" ColorId DARK_GREEN }
+  { "truevampire" "T" ColorId DARK_BLUE }
+  { "truevampire_lord" "T" ColorId PURPLE }
+  { "fire_wizard" "W" ColorId LIGHT_RED }
+  { "corruptkeeper1" "%" ColorId PURPLE }
+  { "corruptkeeper2" "%" ColorId PURPLE }
+  { "corruptkeeper3" "%" ColorId PURPLE }
+  { "corruptkeeper4" "%" ColorId PURPLE }
+  { "corruptkeeper" "%" ColorId PURPLE }
