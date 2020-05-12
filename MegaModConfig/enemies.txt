@@ -1,0 +1,55 @@
+"MAGI"
+  {
+    settlement = {
+      type = Builtin CASTLE2
+      tribe = MONSTER
+      inhabitants = {
+        leader = { { "MAGI" } }
+        fighters = {
+          count = {12 20}
+          all = { 3 "ORC_MAGE_ENDLESS" 1 "ORC_SHAMAN_ENDLESS" }
+        }
+      }
+      locationNameGen = "TOWN"
+      race = "orcs"
+      buildingId = "BRICK"
+      stockpiles = {{ "gold" 422 "TREASURE_CHEST" }}
+	  shopItems = { "dungeon" }
+      lootItem = {TechBook "master sorcery"}
+      furniture = { "castleFurniture" }
+      outsideFeatures = "castleOutside"
+    }
+    config = {
+      immigrantInterval = 120
+      maxPopulation = 28
+      ghostProb = 0.1
+      spawnGhosts = 6
+    }
+    behaviour = {
+      minPopulation = 4
+      minTeamSize = 5
+      triggers = {
+        RoomTrigger "THRONE" 0.0003
+		RoomTrigger "IMPALED_HEAD" 0.3
+        SelfVictims
+        NumConquered 2
+        StolenItems
+        FinishOff
+        Proximity
+      }
+      attackBehaviour = KillLeader
+      ransom = 0.8 140
+    }
+    immigrants = {
+      {
+        ids = {"ORC_MAGE_ENDLESS"}
+        traits = {FIGHTER}
+        frequency = 0.6
+      }
+	  {
+        ids = {"ORC_SHAMAN_ENDLESS"}
+        traits = {FIGHTER}
+        frequency = 0.4
+      }
+    }
+  }

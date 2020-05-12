@@ -8,3 +8,4 @@
   { "corruptkeeper3" "%" ColorId PURPLE }
   { "corruptkeeper4" "%" ColorId PURPLE }
   { "corruptkeeper" "%" ColorId PURPLE }
+  { "magi" "M" ColorId LIGHT_RED }

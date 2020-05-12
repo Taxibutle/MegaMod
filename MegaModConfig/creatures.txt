@@ -612,3 +612,89 @@
         { Simple "Scythe"}
       }
     }
+	
+	"MAGI"
+  {
+    viewId = { "magi" }
+    attr = {
+      DAMAGE 32
+      DEFENSE 58
+	  SPELL_DAMAGE 42
+    }
+    body = {
+      type = Humanoid LARGE
+      weight = 160
+	  addBodyPart = {
+        HEAD 1
+      }
+	  drops = {
+	  { Simple "BossShard" } 1
+	  }
+    }
+    name = {
+      name = "ogre magi"
+      firstNameGen = "ORC"
+    }
+    permanentEffects = {
+      MAGIC_RESISTANCE 1
+	  TELEPATHY 1
+    }
+    skills = {
+      "WORKSHOP" 0.5
+      "FORGE" 0.5
+	  "MULTI_WEAPON" 1.0
+    }
+    maxLevelIncrease = {
+      MELEE 12
+    }
+    hatedByEffect = HATE_GREENSKINS
+    inventory = {
+      { type = Simple "GoldenStaff" prefixChance = 1.0 }
+	  { type = Simple "GoldenStaff" prefixChance = 1.0 }
+	  { Simple "Cornuthaum3" }
+	  { Simple "Cornuthaum3" }
+	  { Potion Heal FLESH 4 5 }
+	  { Simple "AdaGloves" }
+	  { Simple "ChainArmor" }
+	  { Simple "IronBoots" }
+    }
+	spellSchools = { "mage" "illusion" "healer" "fire" }
+	spells = {
+	"expert summon elements"
+	"greek fire breath"
+	"fire trap"
+	"opposing force"
+	"call on nature"
+	"tranquility"
+	"expert teleport"
+	"escape"
+	"expert magic missile"
+	}
+  }
+  
+  "ORC_SHAMAN_ENDLESS" inherit "ORC_SHAMAN"
+  {
+    viewId = { "orc_shaman" }
+    attr = {
+      DAMAGE 20
+      DEFENSE 12
+      SPELL_DAMAGE 30 
+    }
+    maxLevelIncrease = {
+      MELEE 3
+      SPELL 9
+    }
+    spellSchools = {}
+    spells = { "heal spirit" "call on nature" "advanced summon element" }
+    skills = {
+      "SHAMANISM" 0.6
+    }
+    permanentEffects = append {
+      DISTILLATION_SKILL 1
+    }
+    name = {
+      name = "orc shaman"
+      firstNameGen = "ORC"
+    }
+  }
+	
