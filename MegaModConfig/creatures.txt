@@ -627,9 +627,6 @@
 	  addBodyPart = {
         HEAD 1
       }
-	  drops = {
-	  { Simple "BossShard" } 1
-	  }
     }
     name = {
       name = "ogre magi"
